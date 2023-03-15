@@ -1,0 +1,76 @@
+body {
+    background:#eee;
+    width: 100%;
+    max-width: 1920px;
+    padding: 0px;
+    margin: 0px;
+  
+}
+
+.hero {
+    width: 100%;
+    padding-bottom: 25%;
+    background: #ddd;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.posts-container-wrapper {
+    padding: 1em;
+}
+
+.error-message {
+    color: red;
+    display: block;
+}
+
+.posts-container {
+
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.post-card {
+    border: 1px solid red;
+    width: 30%;
+    min-height: 300px;
+}
+
+.post-card img {
+    width: 100%;
+}
+
+
+.single-post {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#flash-message{
+    position: fixed;
+    bottom: 10%;
+    background: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.pagination {
+    padding-top: 6em;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.pagination svg {
+    width: 20px;
+}
